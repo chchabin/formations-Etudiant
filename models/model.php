@@ -12,14 +12,7 @@ include 'data.php';
  * @return array|string[]
  */
 function getLesFormations(){
-    $dataformation=dataFormation();
-    if(!isset($_SESSION['formation'])){
-        $_SESSION['formation']=dataFormation();
-    }
-    else{
-        $dataformation= $_SESSION['formation'];
-    }
-    return $dataformation;
+   
 }
 
 /**
